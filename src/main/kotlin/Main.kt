@@ -12,5 +12,5 @@ fun main() {
 }
 fun summa(a:Int, b:Int, c:Int) {
     println("сумма трех чисел составляет")
-    println(a+b+c)   // суммирование и печать в консоль
+    println(a+b+c)   // суммирование и печать в  консоль
 }
