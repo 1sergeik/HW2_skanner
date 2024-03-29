@@ -1,4 +1,4 @@
-import java.util.Scanner
+import java.util.*
 
 fun main() {
     val input = Scanner(System.`in`)
@@ -12,5 +12,5 @@ fun main() {
 }
 fun summa(a:Int, b:Int, c:Int) {
     val summa_= a + b + c //calculate sum of three numbers
-    println("Сумма чисел $summa_")  //print sum of three numbers
+    println("Сумма чисел =$summa_")  //print sum of three numbers
 }
