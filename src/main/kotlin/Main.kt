@@ -12,5 +12,5 @@ fun main() {
 }
 fun summa(a:Int, b:Int, c:Int) {
     val summa_= a + b + c //calculate sum of three numbers
-    println("Сумма чисел =$summa_")  //print sum of three numbers
+    println("Сумма чисел = $summa_")  //print sum of three numbers
 }
