@@ -1,16 +1,16 @@
-import java.util.*
+import java.util.Scanner
 
 fun main() {
     val input = Scanner(System.`in`)
-    println("введите первое число")
-    val a = input.nextInt()  //ввод первого числа
-    println("введите второе число")
-    val b = input.nextInt()  //ввод второго числа
-    println("введите третье число")
-    val c = input.nextInt()  //ввод третьего числа
+    println("введите первое число:")
+    val a = input.nextInt()  //input first number
+    println("введите второе число:")
+    val b = input.nextInt()  //input second number
+    println("введите третье число:")
+    val c = input.nextInt()  //input third numbr
     summa(a,b,c )
 }
 fun summa(a:Int, b:Int, c:Int) {
-    println("сумма трех чисел составляет")
-    println(a+b+c)   // суммирование и печать в  консоль
+    val summa_= a + b + c //calculate sum of three numbers
+    println("Сумма чисел $summa_")  //print sum of three numbers
 }
