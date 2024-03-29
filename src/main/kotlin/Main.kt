@@ -1,9 +1,9 @@
-import java.util.Scanner
+import java.util.*
 
 fun main() {
     val input = Scanner(System.`in`)
     println("введите первое число")
-    val a = input.nextInt()
+    val a = input.nextInt()  //ввод первого числа
     println("введите второе число")
     val b = input.nextInt()
     println("введите третье число")
