@@ -1,4 +1,4 @@
-import java.util.Scanner
+import java.util.Scanner  // импорт класса Scanner
 
 fun main() {
     val input = Scanner(System.`in`)
